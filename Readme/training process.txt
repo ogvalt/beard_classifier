@@ -1,0 +1,639 @@
+----------------------------------------------------------------
+        Layer (type)               Output Shape         Param #
+================================================================
+            Conv2d-1         [-1, 64, 112, 112]           9,408
+       BatchNorm2d-2         [-1, 64, 112, 112]             128
+              ReLU-3         [-1, 64, 112, 112]               0
+         MaxPool2d-4           [-1, 64, 56, 56]               0
+            Conv2d-5           [-1, 64, 56, 56]          36,864
+       BatchNorm2d-6           [-1, 64, 56, 56]             128
+              ReLU-7           [-1, 64, 56, 56]               0
+            Conv2d-8           [-1, 64, 56, 56]          36,864
+       BatchNorm2d-9           [-1, 64, 56, 56]             128
+             ReLU-10           [-1, 64, 56, 56]               0
+       BasicBlock-11           [-1, 64, 56, 56]               0
+           Conv2d-12           [-1, 64, 56, 56]          36,864
+      BatchNorm2d-13           [-1, 64, 56, 56]             128
+             ReLU-14           [-1, 64, 56, 56]               0
+           Conv2d-15           [-1, 64, 56, 56]          36,864
+      BatchNorm2d-16           [-1, 64, 56, 56]             128
+             ReLU-17           [-1, 64, 56, 56]               0
+       BasicBlock-18           [-1, 64, 56, 56]               0
+           Conv2d-19           [-1, 64, 56, 56]          36,864
+      BatchNorm2d-20           [-1, 64, 56, 56]             128
+             ReLU-21           [-1, 64, 56, 56]               0
+           Conv2d-22           [-1, 64, 56, 56]          36,864
+      BatchNorm2d-23           [-1, 64, 56, 56]             128
+             ReLU-24           [-1, 64, 56, 56]               0
+       BasicBlock-25           [-1, 64, 56, 56]               0
+           Conv2d-26          [-1, 128, 28, 28]          73,728
+      BatchNorm2d-27          [-1, 128, 28, 28]             256
+             ReLU-28          [-1, 128, 28, 28]               0
+           Conv2d-29          [-1, 128, 28, 28]         147,456
+      BatchNorm2d-30          [-1, 128, 28, 28]             256
+           Conv2d-31          [-1, 128, 28, 28]           8,192
+      BatchNorm2d-32          [-1, 128, 28, 28]             256
+             ReLU-33          [-1, 128, 28, 28]               0
+       BasicBlock-34          [-1, 128, 28, 28]               0
+           Conv2d-35          [-1, 128, 28, 28]         147,456
+      BatchNorm2d-36          [-1, 128, 28, 28]             256
+             ReLU-37          [-1, 128, 28, 28]               0
+           Conv2d-38          [-1, 128, 28, 28]         147,456
+      BatchNorm2d-39          [-1, 128, 28, 28]             256
+             ReLU-40          [-1, 128, 28, 28]               0
+       BasicBlock-41          [-1, 128, 28, 28]               0
+           Conv2d-42          [-1, 128, 28, 28]         147,456
+      BatchNorm2d-43          [-1, 128, 28, 28]             256
+             ReLU-44          [-1, 128, 28, 28]               0
+           Conv2d-45          [-1, 128, 28, 28]         147,456
+      BatchNorm2d-46          [-1, 128, 28, 28]             256
+             ReLU-47          [-1, 128, 28, 28]               0
+       BasicBlock-48          [-1, 128, 28, 28]               0
+           Conv2d-49          [-1, 128, 28, 28]         147,456
+      BatchNorm2d-50          [-1, 128, 28, 28]             256
+             ReLU-51          [-1, 128, 28, 28]               0
+           Conv2d-52          [-1, 128, 28, 28]         147,456
+      BatchNorm2d-53          [-1, 128, 28, 28]             256
+             ReLU-54          [-1, 128, 28, 28]               0
+       BasicBlock-55          [-1, 128, 28, 28]               0
+           Conv2d-56          [-1, 256, 14, 14]         294,912
+      BatchNorm2d-57          [-1, 256, 14, 14]             512
+             ReLU-58          [-1, 256, 14, 14]               0
+           Conv2d-59          [-1, 256, 14, 14]         589,824
+      BatchNorm2d-60          [-1, 256, 14, 14]             512
+           Conv2d-61          [-1, 256, 14, 14]          32,768
+      BatchNorm2d-62          [-1, 256, 14, 14]             512
+             ReLU-63          [-1, 256, 14, 14]               0
+       BasicBlock-64          [-1, 256, 14, 14]               0
+           Conv2d-65          [-1, 256, 14, 14]         589,824
+      BatchNorm2d-66          [-1, 256, 14, 14]             512
+             ReLU-67          [-1, 256, 14, 14]               0
+           Conv2d-68          [-1, 256, 14, 14]         589,824
+      BatchNorm2d-69          [-1, 256, 14, 14]             512
+             ReLU-70          [-1, 256, 14, 14]               0
+       BasicBlock-71          [-1, 256, 14, 14]               0
+           Conv2d-72          [-1, 256, 14, 14]         589,824
+      BatchNorm2d-73          [-1, 256, 14, 14]             512
+             ReLU-74          [-1, 256, 14, 14]               0
+           Conv2d-75          [-1, 256, 14, 14]         589,824
+      BatchNorm2d-76          [-1, 256, 14, 14]             512
+             ReLU-77          [-1, 256, 14, 14]               0
+       BasicBlock-78          [-1, 256, 14, 14]               0
+           Conv2d-79          [-1, 256, 14, 14]         589,824
+      BatchNorm2d-80          [-1, 256, 14, 14]             512
+             ReLU-81          [-1, 256, 14, 14]               0
+           Conv2d-82          [-1, 256, 14, 14]         589,824
+      BatchNorm2d-83          [-1, 256, 14, 14]             512
+             ReLU-84          [-1, 256, 14, 14]               0
+       BasicBlock-85          [-1, 256, 14, 14]               0
+           Conv2d-86          [-1, 256, 14, 14]         589,824
+      BatchNorm2d-87          [-1, 256, 14, 14]             512
+             ReLU-88          [-1, 256, 14, 14]               0
+           Conv2d-89          [-1, 256, 14, 14]         589,824
+      BatchNorm2d-90          [-1, 256, 14, 14]             512
+             ReLU-91          [-1, 256, 14, 14]               0
+       BasicBlock-92          [-1, 256, 14, 14]               0
+           Conv2d-93          [-1, 256, 14, 14]         589,824
+      BatchNorm2d-94          [-1, 256, 14, 14]             512
+             ReLU-95          [-1, 256, 14, 14]               0
+           Conv2d-96          [-1, 256, 14, 14]         589,824
+      BatchNorm2d-97          [-1, 256, 14, 14]             512
+             ReLU-98          [-1, 256, 14, 14]               0
+       BasicBlock-99          [-1, 256, 14, 14]               0
+          Conv2d-100            [-1, 512, 7, 7]       1,179,648
+     BatchNorm2d-101            [-1, 512, 7, 7]           1,024
+            ReLU-102            [-1, 512, 7, 7]               0
+          Conv2d-103            [-1, 512, 7, 7]       2,359,296
+     BatchNorm2d-104            [-1, 512, 7, 7]           1,024
+          Conv2d-105            [-1, 512, 7, 7]         131,072
+     BatchNorm2d-106            [-1, 512, 7, 7]           1,024
+            ReLU-107            [-1, 512, 7, 7]               0
+      BasicBlock-108            [-1, 512, 7, 7]               0
+          Conv2d-109            [-1, 512, 7, 7]       2,359,296
+     BatchNorm2d-110            [-1, 512, 7, 7]           1,024
+            ReLU-111            [-1, 512, 7, 7]               0
+          Conv2d-112            [-1, 512, 7, 7]       2,359,296
+     BatchNorm2d-113            [-1, 512, 7, 7]           1,024
+            ReLU-114            [-1, 512, 7, 7]               0
+      BasicBlock-115            [-1, 512, 7, 7]               0
+          Conv2d-116            [-1, 512, 7, 7]       2,359,296
+     BatchNorm2d-117            [-1, 512, 7, 7]           1,024
+            ReLU-118            [-1, 512, 7, 7]               0
+          Conv2d-119            [-1, 512, 7, 7]       2,359,296
+     BatchNorm2d-120            [-1, 512, 7, 7]           1,024
+            ReLU-121            [-1, 512, 7, 7]               0
+      BasicBlock-122            [-1, 512, 7, 7]               0
+AdaptiveAvgPool2d-123            [-1, 512, 1, 1]               0
+         Flatten-124                  [-1, 512]               0
+     BatchNorm1d-125                  [-1, 512]           1,024
+         Dropout-126                  [-1, 512]               0
+          Linear-127                  [-1, 200]         102,600
+            ReLU-128                  [-1, 200]               0
+     BatchNorm1d-129                  [-1, 200]             400
+         Dropout-130                  [-1, 200]               0
+          Linear-131                    [-1, 8]           1,608
+================================================================
+Total params: 21,390,304
+Trainable params: 20,042,400
+Non-trainable params: 1,347,904
+----------------------------------------------------------------
+Input size (MB): 0.57
+Forward/backward pass size (MB): 96.30
+Params size (MB): 81.60
+Estimated Total Size (MB): 178.47
+----------------------------------------------------------------
+Train Epoch: 1 Loss: 2.1237 Accuracy: 358/1700 (21.1%)
+Test: Average loss: 1.4820, Accuracy: 151/301 (50.2%)
+                    name  TP  FN    Recall
+0           chin_curtain   0   8  0.000000
+1           classic_long  19   8  0.703704
+2          classic_short  18  28  0.391304
+3                 goatee   4  24  0.142857
+4  goatee_with_moustache  18  31  0.367347
+5              moustache  27  15  0.642857
+6                 shaven  46   7  0.867925
+7                stubble  19  29  0.395833
+Train Epoch: 2 Loss: 1.7691 Accuracy: 613/1700 (36.1%)
+Test: Average loss: 1.3186, Accuracy: 148/301 (49.2%)
+                    name  TP  FN    Recall
+0           chin_curtain   4   4  0.500000
+1           classic_long  23   4  0.851852
+2          classic_short   7  39  0.152174
+3                 goatee   4  24  0.142857
+4  goatee_with_moustache  28  21  0.571429
+5              moustache  29  13  0.690476
+6                 shaven  27  26  0.509434
+7                stubble  26  22  0.541667
+Train Epoch: 3 Loss: 1.7126 Accuracy: 641/1700 (37.7%)
+Test: Average loss: 1.5129, Accuracy: 131/301 (43.5%)
+                    name  TP  FN    Recall
+0           chin_curtain   5   3  0.625000
+1           classic_long  20   7  0.740741
+2          classic_short  13  33  0.282609
+3                 goatee   3  25  0.107143
+4  goatee_with_moustache   9  40  0.183673
+5              moustache  35   7  0.833333
+6                 shaven  34  19  0.641509
+7                stubble  12  36  0.250000
+Train Epoch: 4 Loss: 1.6251 Accuracy: 733/1700 (43.1%)
+Test: Average loss: 1.1496, Accuracy: 175/301 (58.1%)
+                    name  TP  FN    Recall
+0           chin_curtain   5   3  0.625000
+1           classic_long  23   4  0.851852
+2          classic_short  10  36  0.217391
+3                 goatee   7  21  0.250000
+4  goatee_with_moustache  19  30  0.387755
+5              moustache  35   7  0.833333
+6                 shaven  42  11  0.792453
+7                stubble  34  14  0.708333
+Train Epoch: 5 Loss: 1.5010 Accuracy: 776/1700 (45.6%)
+Test: Average loss: 1.0629, Accuracy: 182/301 (60.5%)
+                    name  TP  FN    Recall
+0           chin_curtain   3   5  0.375000
+1           classic_long  19   8  0.703704
+2          classic_short  30  16  0.652174
+3                 goatee   2  26  0.071429
+4  goatee_with_moustache  25  24  0.510204
+5              moustache  37   5  0.880952
+6                 shaven  39  14  0.735849
+7                stubble  27  21  0.562500
+Train Epoch: 6 Loss: 1.3575 Accuracy: 873/1700 (51.4%)
+Test: Average loss: 0.9468, Accuracy: 193/301 (64.1%)
+                    name  TP  FN    Recall
+0           chin_curtain   0   8  0.000000
+1           classic_long  14  13  0.518519
+2          classic_short  27  19  0.586957
+3                 goatee  16  12  0.571429
+4  goatee_with_moustache  28  21  0.571429
+5              moustache  36   6  0.857143
+6                 shaven  40  13  0.754717
+7                stubble  32  16  0.666667
+Train Epoch: 7 Loss: 1.2712 Accuracy: 968/1700 (56.9%)
+Test: Average loss: 0.9328, Accuracy: 201/301 (66.8%)
+                    name  TP  FN    Recall
+0           chin_curtain   4   4  0.500000
+1           classic_long  22   5  0.814815
+2          classic_short  31  15  0.673913
+3                 goatee  21   7  0.750000
+4  goatee_with_moustache  26  23  0.530612
+5              moustache  36   6  0.857143
+6                 shaven  37  16  0.698113
+7                stubble  24  24  0.500000
+Train Epoch: 8 Loss: 1.2208 Accuracy: 990/1700 (58.2%)
+Test: Average loss: 0.7704, Accuracy: 219/301 (72.8%)
+                    name  TP  FN    Recall
+0           chin_curtain   5   3  0.625000
+1           classic_long  27   0  1.000000
+2          classic_short  24  22  0.521739
+3                 goatee  17  11  0.607143
+4  goatee_with_moustache  35  14  0.714286
+5              moustache  37   5  0.880952
+6                 shaven  44   9  0.830189
+7                stubble  30  18  0.625000
+Train Epoch: 9 Loss: 1.0955 Accuracy: 1068/1700 (62.8%)
+Test: Average loss: 0.8557, Accuracy: 218/301 (72.4%)
+                    name  TP  FN    Recall
+0           chin_curtain   6   2  0.750000
+1           classic_long  26   1  0.962963
+2          classic_short  22  24  0.478261
+3                 goatee  18  10  0.642857
+4  goatee_with_moustache  39  10  0.795918
+5              moustache  32  10  0.761905
+6                 shaven  48   5  0.905660
+7                stubble  27  21  0.562500
+Train Epoch: 10 Loss: 1.0383 Accuracy: 1085/1700 (63.8%)
+Test: Average loss: 0.7656, Accuracy: 212/301 (70.4%)
+                    name  TP  FN    Recall
+0           chin_curtain   4   4  0.500000
+1           classic_long  25   2  0.925926
+2          classic_short  27  19  0.586957
+3                 goatee  18  10  0.642857
+4  goatee_with_moustache  25  24  0.510204
+5              moustache  37   5  0.880952
+6                 shaven  46   7  0.867925
+7                stubble  30  18  0.625000
+Train Epoch: 11 Loss: 0.9982 Accuracy: 1111/1700 (65.4%)
+Test: Average loss: 0.7061, Accuracy: 230/301 (76.4%)
+                    name  TP  FN    Recall
+0           chin_curtain   1   7  0.125000
+1           classic_long  21   6  0.777778
+2          classic_short  28  18  0.608696
+3                 goatee  24   4  0.857143
+4  goatee_with_moustache  40   9  0.816327
+5              moustache  39   3  0.928571
+6                 shaven  50   3  0.943396
+7                stubble  27  21  0.562500
+Train Epoch: 12 Loss: 0.9059 Accuracy: 1181/1700 (69.5%)
+Test: Average loss: 0.6841, Accuracy: 228/301 (75.7%)
+                    name  TP  FN    Recall
+0           chin_curtain   4   4  0.500000
+1           classic_long  18   9  0.666667
+2          classic_short  29  17  0.630435
+3                 goatee  22   6  0.785714
+4  goatee_with_moustache  38  11  0.775510
+5              moustache  41   1  0.976190
+6                 shaven  48   5  0.905660
+7                stubble  28  20  0.583333
+Train Epoch: 13 Loss: 0.8841 Accuracy: 1206/1700 (70.9%)
+Test: Average loss: 0.7672, Accuracy: 216/301 (71.8%)
+                    name  TP  FN    Recall
+0           chin_curtain   3   5  0.375000
+1           classic_long  18   9  0.666667
+2          classic_short  26  20  0.565217
+3                 goatee  22   6  0.785714
+4  goatee_with_moustache  38  11  0.775510
+5              moustache  39   3  0.928571
+6                 shaven  45   8  0.849057
+7                stubble  25  23  0.520833
+Train Epoch: 14 Loss: 0.8325 Accuracy: 1219/1700 (71.7%)
+Test: Average loss: 0.6615, Accuracy: 229/301 (76.1%)
+                    name  TP  FN    Recall
+0           chin_curtain   5   3  0.625000
+1           classic_long  22   5  0.814815
+2          classic_short  37   9  0.804348
+3                 goatee  19   9  0.678571
+4  goatee_with_moustache  32  17  0.653061
+5              moustache  37   5  0.880952
+6                 shaven  47   6  0.886792
+7                stubble  30  18  0.625000
+Train Epoch: 15 Loss: 0.7401 Accuracy: 1297/1700 (76.3%)
+Test: Average loss: 0.6547, Accuracy: 230/301 (76.4%)
+                    name  TP  FN    Recall
+0           chin_curtain   3   5  0.375000
+1           classic_long  22   5  0.814815
+2          classic_short  29  17  0.630435
+3                 goatee  17  11  0.607143
+4  goatee_with_moustache  38  11  0.775510
+5              moustache  36   6  0.857143
+6                 shaven  48   5  0.905660
+7                stubble  37  11  0.770833
+Train Epoch: 16 Loss: 0.6914 Accuracy: 1333/1700 (78.4%)
+Test: Average loss: 0.6401, Accuracy: 237/301 (78.7%)
+                    name  TP  FN    Recall
+0           chin_curtain   4   4  0.500000
+1           classic_long  21   6  0.777778
+2          classic_short  35  11  0.760870
+3                 goatee  25   3  0.892857
+4  goatee_with_moustache  36  13  0.734694
+5              moustache  38   4  0.904762
+6                 shaven  45   8  0.849057
+7                stubble  33  15  0.687500
+Train Epoch: 17 Loss: 0.5889 Accuracy: 1418/1700 (83.4%)
+Test: Average loss: 0.5883, Accuracy: 242/301 (80.4%)
+                    name  TP  FN    Recall
+0           chin_curtain   4   4  0.500000
+1           classic_long  22   5  0.814815
+2          classic_short  37   9  0.804348
+3                 goatee  23   5  0.821429
+4  goatee_with_moustache  37  12  0.755102
+5              moustache  37   5  0.880952
+6                 shaven  49   4  0.924528
+7                stubble  33  15  0.687500
+Train Epoch: 18 Loss: 0.5850 Accuracy: 1387/1700 (81.6%)
+Test: Average loss: 0.6348, Accuracy: 236/301 (78.4%)
+                    name  TP  FN    Recall
+0           chin_curtain   5   3  0.625000
+1           classic_long  18   9  0.666667
+2          classic_short  34  12  0.739130
+3                 goatee  23   5  0.821429
+4  goatee_with_moustache  37  12  0.755102
+5              moustache  36   6  0.857143
+6                 shaven  46   7  0.867925
+7                stubble  37  11  0.770833
+Train Epoch: 19 Loss: 0.5729 Accuracy: 1394/1700 (82.0%)
+Test: Average loss: 0.5909, Accuracy: 244/301 (81.1%)
+                    name  TP  FN    Recall
+0           chin_curtain   4   4  0.500000
+1           classic_long  23   4  0.851852
+2          classic_short  36  10  0.782609
+3                 goatee  22   6  0.785714
+4  goatee_with_moustache  39  10  0.795918
+5              moustache  38   4  0.904762
+6                 shaven  46   7  0.867925
+7                stubble  36  12  0.750000
+Train Epoch: 20 Loss: 0.4574 Accuracy: 1464/1700 (86.1%)
+Test: Average loss: 0.6229, Accuracy: 242/301 (80.4%)
+                    name  TP  FN    Recall
+0           chin_curtain   5   3  0.625000
+1           classic_long  22   5  0.814815
+2          classic_short  39   7  0.847826
+3                 goatee  25   3  0.892857
+4  goatee_with_moustache  35  14  0.714286
+5              moustache  37   5  0.880952
+6                 shaven  46   7  0.867925
+7                stubble  33  15  0.687500
+Train Epoch: 21 Loss: 0.6026 Accuracy: 1379/1700 (81.1%)
+Test: Average loss: 0.5928, Accuracy: 243/301 (80.7%)
+                    name  TP  FN    Recall
+0           chin_curtain   5   3  0.625000
+1           classic_long  23   4  0.851852
+2          classic_short  36  10  0.782609
+3                 goatee  21   7  0.750000
+4  goatee_with_moustache  38  11  0.775510
+5              moustache  41   1  0.976190
+6                 shaven  48   5  0.905660
+7                stubble  31  17  0.645833
+Train Epoch: 22 Loss: 0.4972 Accuracy: 1417/1700 (83.4%)
+Test: Average loss: 0.6080, Accuracy: 240/301 (79.7%)
+                    name  TP  FN    Recall
+0           chin_curtain   3   5  0.375000
+1           classic_long  21   6  0.777778
+2          classic_short  33  13  0.717391
+3                 goatee  23   5  0.821429
+4  goatee_with_moustache  37  12  0.755102
+5              moustache  38   4  0.904762
+6                 shaven  47   6  0.886792
+7                stubble  38  10  0.791667
+Train Epoch: 23 Loss: 0.4885 Accuracy: 1432/1700 (84.2%)
+Test: Average loss: 0.6115, Accuracy: 243/301 (80.7%)
+                    name  TP  FN    Recall
+0           chin_curtain   4   4  0.500000
+1           classic_long  23   4  0.851852
+2          classic_short  36  10  0.782609
+3                 goatee  20   8  0.714286
+4  goatee_with_moustache  39  10  0.795918
+5              moustache  39   3  0.928571
+6                 shaven  46   7  0.867925
+7                stubble  36  12  0.750000
+Train Epoch: 24 Loss: 0.4701 Accuracy: 1430/1700 (84.1%)
+Test: Average loss: 0.6250, Accuracy: 240/301 (79.7%)
+                    name  TP  FN    Recall
+0           chin_curtain   3   5  0.375000
+1           classic_long  22   5  0.814815
+2          classic_short  36  10  0.782609
+3                 goatee  22   6  0.785714
+4  goatee_with_moustache  37  12  0.755102
+5              moustache  39   3  0.928571
+6                 shaven  50   3  0.943396
+7                stubble  31  17  0.645833
+Train Epoch: 25 Loss: 0.4117 Accuracy: 1484/1700 (87.3%)
+Test: Average loss: 0.6342, Accuracy: 239/301 (79.4%)
+                    name  TP  FN    Recall
+0           chin_curtain   4   4  0.500000
+1           classic_long  21   6  0.777778
+2          classic_short  35  11  0.760870
+3                 goatee  24   4  0.857143
+4  goatee_with_moustache  37  12  0.755102
+5              moustache  37   5  0.880952
+6                 shaven  46   7  0.867925
+7                stubble  35  13  0.729167
+Train Epoch: 26 Loss: 0.4373 Accuracy: 1484/1700 (87.3%)
+Test: Average loss: 0.6577, Accuracy: 242/301 (80.4%)
+                    name  TP  FN    Recall
+0           chin_curtain   3   5  0.375000
+1           classic_long  23   4  0.851852
+2          classic_short  39   7  0.847826
+3                 goatee  26   2  0.928571
+4  goatee_with_moustache  35  14  0.714286
+5              moustache  37   5  0.880952
+6                 shaven  46   7  0.867925
+7                stubble  33  15  0.687500
+Train Epoch: 27 Loss: 0.3917 Accuracy: 1480/1700 (87.1%)
+Test: Average loss: 0.6233, Accuracy: 238/301 (79.1%)
+                    name  TP  FN    Recall
+0           chin_curtain   3   5  0.375000
+1           classic_long  21   6  0.777778
+2          classic_short  35  11  0.760870
+3                 goatee  23   5  0.821429
+4  goatee_with_moustache  37  12  0.755102
+5              moustache  38   4  0.904762
+6                 shaven  46   7  0.867925
+7                stubble  35  13  0.729167
+Train Epoch: 28 Loss: 0.4059 Accuracy: 1481/1700 (87.1%)
+Test: Average loss: 0.6699, Accuracy: 238/301 (79.1%)
+                    name  TP  FN    Recall
+0           chin_curtain   3   5  0.375000
+1           classic_long  22   5  0.814815
+2          classic_short  36  10  0.782609
+3                 goatee  21   7  0.750000
+4  goatee_with_moustache  37  12  0.755102
+5              moustache  40   2  0.952381
+6                 shaven  49   4  0.924528
+7                stubble  30  18  0.625000
+Train Epoch: 29 Loss: 0.3633 Accuracy: 1500/1700 (88.2%)
+Test: Average loss: 0.6528, Accuracy: 235/301 (78.1%)
+                    name  TP  FN    Recall
+0           chin_curtain   3   5  0.375000
+1           classic_long  19   8  0.703704
+2          classic_short  37   9  0.804348
+3                 goatee  21   7  0.750000
+4  goatee_with_moustache  38  11  0.775510
+5              moustache  38   4  0.904762
+6                 shaven  48   5  0.905660
+7                stubble  31  17  0.645833
+Train Epoch: 30 Loss: 0.3988 Accuracy: 1486/1700 (87.4%)
+Test: Average loss: 0.6284, Accuracy: 242/301 (80.4%)
+                    name  TP  FN    Recall
+0           chin_curtain   3   5  0.375000
+1           classic_long  21   6  0.777778
+2          classic_short  38   8  0.826087
+3                 goatee  23   5  0.821429
+4  goatee_with_moustache  37  12  0.755102
+5              moustache  38   4  0.904762
+6                 shaven  47   6  0.886792
+7                stubble  35  13  0.729167
+Train Epoch: 31 Loss: 0.3597 Accuracy: 1511/1700 (88.9%)
+Test: Average loss: 0.6647, Accuracy: 235/301 (78.1%)
+                    name  TP  FN    Recall
+0           chin_curtain   2   6  0.250000
+1           classic_long  19   8  0.703704
+2          classic_short  33  13  0.717391
+3                 goatee  23   5  0.821429
+4  goatee_with_moustache  37  12  0.755102
+5              moustache  38   4  0.904762
+6                 shaven  49   4  0.924528
+7                stubble  34  14  0.708333
+Train Epoch: 32 Loss: 0.4043 Accuracy: 1467/1700 (86.3%)
+Test: Average loss: 0.6726, Accuracy: 239/301 (79.4%)
+                    name  TP  FN    Recall
+0           chin_curtain   5   3  0.625000
+1           classic_long  18   9  0.666667
+2          classic_short  38   8  0.826087
+3                 goatee  23   5  0.821429
+4  goatee_with_moustache  38  11  0.775510
+5              moustache  38   4  0.904762
+6                 shaven  47   6  0.886792
+7                stubble  32  16  0.666667
+Train Epoch: 33 Loss: 0.4005 Accuracy: 1483/1700 (87.2%)
+Test: Average loss: 0.6539, Accuracy: 240/301 (79.7%)
+                    name  TP  FN    Recall
+0           chin_curtain   3   5  0.375000
+1           classic_long  19   8  0.703704
+2          classic_short  36  10  0.782609
+3                 goatee  22   6  0.785714
+4  goatee_with_moustache  38  11  0.775510
+5              moustache  38   4  0.904762
+6                 shaven  47   6  0.886792
+7                stubble  37  11  0.770833
+Train Epoch: 34 Loss: 0.4074 Accuracy: 1488/1700 (87.5%)
+Test: Average loss: 0.6784, Accuracy: 238/301 (79.1%)
+                    name  TP  FN    Recall
+0           chin_curtain   4   4  0.500000
+1           classic_long  19   8  0.703704
+2          classic_short  35  11  0.760870
+3                 goatee  22   6  0.785714
+4  goatee_with_moustache  38  11  0.775510
+5              moustache  38   4  0.904762
+6                 shaven  47   6  0.886792
+7                stubble  35  13  0.729167
+Train Epoch: 35 Loss: 0.3839 Accuracy: 1504/1700 (88.5%)
+Test: Average loss: 0.6725, Accuracy: 232/301 (77.1%)
+                    name  TP  FN    Recall
+0           chin_curtain   3   5  0.375000
+1           classic_long  18   9  0.666667
+2          classic_short  33  13  0.717391
+3                 goatee  21   7  0.750000
+4  goatee_with_moustache  38  11  0.775510
+5              moustache  38   4  0.904762
+6                 shaven  49   4  0.924528
+7                stubble  32  16  0.666667
+Train Epoch: 36 Loss: 0.3645 Accuracy: 1501/1700 (88.3%)
+Test: Average loss: 0.6435, Accuracy: 239/301 (79.4%)
+                    name  TP  FN    Recall
+0           chin_curtain   5   3  0.625000
+1           classic_long  19   8  0.703704
+2          classic_short  38   8  0.826087
+3                 goatee  22   6  0.785714
+4  goatee_with_moustache  38  11  0.775510
+5              moustache  38   4  0.904762
+6                 shaven  48   5  0.905660
+7                stubble  31  17  0.645833
+Train Epoch: 37 Loss: 0.3459 Accuracy: 1501/1700 (88.3%)
+Test: Average loss: 0.6416, Accuracy: 238/301 (79.1%)
+                    name  TP  FN    Recall
+0           chin_curtain   4   4  0.500000
+1           classic_long  22   5  0.814815
+2          classic_short  33  13  0.717391
+3                 goatee  21   7  0.750000
+4  goatee_with_moustache  38  11  0.775510
+5              moustache  39   3  0.928571
+6                 shaven  50   3  0.943396
+7                stubble  31  17  0.645833
+Train Epoch: 38 Loss: 0.3829 Accuracy: 1495/1700 (87.9%)
+Test: Average loss: 0.6891, Accuracy: 235/301 (78.1%)
+                    name  TP  FN    Recall
+0           chin_curtain   3   5  0.375000
+1           classic_long  19   8  0.703704
+2          classic_short  35  11  0.760870
+3                 goatee  21   7  0.750000
+4  goatee_with_moustache  38  11  0.775510
+5              moustache  38   4  0.904762
+6                 shaven  50   3  0.943396
+7                stubble  31  17  0.645833
+Train Epoch: 39 Loss: 0.3633 Accuracy: 1511/1700 (88.9%)
+Test: Average loss: 0.6411, Accuracy: 239/301 (79.4%)
+                    name  TP  FN    Recall
+0           chin_curtain   3   5  0.375000
+1           classic_long  19   8  0.703704
+2          classic_short  39   7  0.847826
+3                 goatee  22   6  0.785714
+4  goatee_with_moustache  38  11  0.775510
+5              moustache  38   4  0.904762
+6                 shaven  47   6  0.886792
+7                stubble  33  15  0.687500
+Train Epoch: 40 Loss: 0.3424 Accuracy: 1521/1700 (89.5%)
+Test: Average loss: 0.6512, Accuracy: 236/301 (78.4%)
+                    name  TP  FN    Recall
+0           chin_curtain   2   6  0.250000
+1           classic_long  22   5  0.814815
+2          classic_short  34  12  0.739130
+3                 goatee  22   6  0.785714
+4  goatee_with_moustache  38  11  0.775510
+5              moustache  38   4  0.904762
+6                 shaven  47   6  0.886792
+7                stubble  33  15  0.687500
+Train Epoch: 41 Loss: 0.3825 Accuracy: 1503/1700 (88.4%)
+Test: Average loss: 0.6504, Accuracy: 236/301 (78.4%)
+                    name  TP  FN    Recall
+0           chin_curtain   3   5  0.375000
+1           classic_long  17  10  0.629630
+2          classic_short  35  11  0.760870
+3                 goatee  20   8  0.714286
+4  goatee_with_moustache  39  10  0.795918
+5              moustache  39   3  0.928571
+6                 shaven  47   6  0.886792
+7                stubble  36  12  0.750000
+Train Epoch: 42 Loss: 0.3287 Accuracy: 1520/1700 (89.4%)
+Test: Average loss: 0.6677, Accuracy: 236/301 (78.4%)
+                    name  TP  FN    Recall
+0           chin_curtain   1   7  0.125000
+1           classic_long  19   8  0.703704
+2          classic_short  35  11  0.760870
+3                 goatee  21   7  0.750000
+4  goatee_with_moustache  38  11  0.775510
+5              moustache  39   3  0.928571
+6                 shaven  48   5  0.905660
+7                stubble  35  13  0.729167
+Train Epoch: 43 Loss: 0.3682 Accuracy: 1501/1700 (88.3%)
+Test: Average loss: 0.6409, Accuracy: 235/301 (78.1%)
+                    name  TP  FN    Recall
+0           chin_curtain   2   6  0.250000
+1           classic_long  19   8  0.703704
+2          classic_short  34  12  0.739130
+3                 goatee  22   6  0.785714
+4  goatee_with_moustache  38  11  0.775510
+5              moustache  38   4  0.904762
+6                 shaven  48   5  0.905660
+7                stubble  34  14  0.708333
+Train Epoch: 44 Loss: 0.3438 Accuracy: 1531/1700 (90.1%)
+Test: Average loss: 0.6424, Accuracy: 239/301 (79.4%)
+                    name  TP  FN    Recall
+0           chin_curtain   3   5  0.375000
+1           classic_long  19   8  0.703704
+2          classic_short  38   8  0.826087
+3                 goatee  23   5  0.821429
+4  goatee_with_moustache  37  12  0.755102
+5              moustache  38   4  0.904762
+6                 shaven  48   5  0.905660
+7                stubble  33  15  0.687500
+Train Epoch: 45 Loss: 0.3677 Accuracy: 1506/1700 (88.6%)
+Test: Average loss: 0.6828, Accuracy: 235/301 (78.1%)
+                    name  TP  FN    Recall
+0           chin_curtain   3   5  0.375000
+1           classic_long  18   9  0.666667
+2          classic_short  35  11  0.760870
+3                 goatee  22   6  0.785714
+4  goatee_with_moustache  38  11  0.775510
+5              moustache  37   5  0.880952
+6                 shaven  49   4  0.924528
+7                stubble  33  15  0.687500

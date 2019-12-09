@@ -1,0 +1,515 @@
+C:\Users\Gvalt\AppData\Local\Programs\Python\Python37\python.exe C:\Users\Gvalt\AppData\Local\JetBrains\Toolbox\apps\PyCharm-P\ch-0\192.5728.105\helpers\pydev\pydevconsole.py --mode=client --port=53587
+import sys; print('Python %s on %s' % (sys.version, sys.platform))
+sys.path.extend(['D:\\projects\\beard_classifier', 'D:/projects/beard_classifier'])
+Python 3.7.4 (tags/v3.7.4:e09359112e, Jul  8 2019, 20:34:20) [MSC v.1916 64 bit (AMD64)]
+Type 'copyright', 'credits' or 'license' for more information
+IPython 7.8.0 -- An enhanced Interactive Python. Type '?' for help.
+PyDev console: using IPython 7.8.0
+Python 3.7.4 (tags/v3.7.4:e09359112e, Jul  8 2019, 20:34:20) [MSC v.1916 64 bit (AMD64)] on win32
+runfile('D:/projects/beard_classifier/evaluate.py', wdir='D:/projects/beard_classifier')
+Is cuda?  True
+conv1 is frozen
+bn1 is frozen
+relu is frozen
+maxpool is frozen
+layer1 is frozen
+layer2 is frozen
+layer3 is unfrozen
+layer4 is unfrozen
+avgpool is unfrozen
+fc is frozen
+beard_resnet34_epoch_1.pt
+                    name   TP  Total  Accuracy, %
+0           chin_curtain    2     75         2.67
+1           classic_long  153    186        82.26
+2          classic_short  110    301        36.54
+3                 goatee   53    238        22.27
+4  goatee_with_moustache  114    301        37.87
+5              moustache  197    298        66.11
+6                 shaven  247    301        82.06
+7                stubble   96    301        31.89
+Average accuracy: 972/2001 (48.6%)
+beard_resnet34_epoch_10.pt
+                    name   TP  Total  Accuracy, %
+0           chin_curtain   69     75        92.00
+1           classic_long  178    186        95.70
+2          classic_short  223    301        74.09
+3                 goatee  173    238        72.69
+4  goatee_with_moustache  188    301        62.46
+5              moustache  275    298        92.28
+6                 shaven  279    301        92.69
+7                stubble  239    301        79.40
+Average accuracy: 1624/2001 (81.2%)
+beard_resnet34_epoch_11.pt
+                    name   TP  Total  Accuracy, %
+0           chin_curtain   49     75        65.33
+1           classic_long  168    186        90.32
+2          classic_short  223    301        74.09
+3                 goatee  219    238        92.02
+4  goatee_with_moustache  273    301        90.70
+5              moustache  286    298        95.97
+6                 shaven  294    301        97.67
+7                stubble  202    301        67.11
+Average accuracy: 1714/2001 (85.7%)
+beard_resnet34_epoch_12.pt
+                    name   TP  Total  Accuracy, %
+0           chin_curtain   68     75        90.67
+1           classic_long  165    186        88.71
+2          classic_short  234    301        77.74
+3                 goatee  213    238        89.50
+4  goatee_with_moustache  264    301        87.71
+5              moustache  292    298        97.99
+6                 shaven  283    301        94.02
+7                stubble  223    301        74.09
+Average accuracy: 1742/2001 (87.1%)
+beard_resnet34_epoch_13.pt
+                    name   TP  Total  Accuracy, %
+0           chin_curtain   69     75        92.00
+1           classic_long  162    186        87.10
+2          classic_short  236    301        78.41
+3                 goatee  221    238        92.86
+4  goatee_with_moustache  265    301        88.04
+5              moustache  289    298        96.98
+6                 shaven  285    301        94.68
+7                stubble  227    301        75.42
+Average accuracy: 1754/2001 (87.7%)
+beard_resnet34_epoch_14.pt
+                    name   TP  Total  Accuracy, %
+0           chin_curtain   72     75        96.00
+1           classic_long  178    186        95.70
+2          classic_short  273    301        90.70
+3                 goatee  186    238        78.15
+4  goatee_with_moustache  258    301        85.71
+5              moustache  277    298        92.95
+6                 shaven  280    301        93.02
+7                stubble  247    301        82.06
+Average accuracy: 1771/2001 (88.5%)
+beard_resnet34_epoch_15.pt
+                    name   TP  Total  Accuracy, %
+0           chin_curtain   63     75        84.00
+1           classic_long  178    186        95.70
+2          classic_short  232    301        77.08
+3                 goatee  205    238        86.13
+4  goatee_with_moustache  271    301        90.03
+5              moustache  282    298        94.63
+6                 shaven  290    301        96.35
+7                stubble  283    301        94.02
+Average accuracy: 1804/2001 (90.2%)
+beard_resnet34_epoch_16.pt
+                    name   TP  Total  Accuracy, %
+0           chin_curtain   71     75        94.67
+1           classic_long  176    186        94.62
+2          classic_short  266    301        88.37
+3                 goatee  226    238        94.96
+4  goatee_with_moustache  258    301        85.71
+5              moustache  287    298        96.31
+6                 shaven  285    301        94.68
+7                stubble  275    301        91.36
+Average accuracy: 1844/2001 (92.2%)
+beard_resnet34_epoch_17.pt
+                    name   TP  Total  Accuracy, %
+0           chin_curtain   71     75        94.67
+1           classic_long  178    186        95.70
+2          classic_short  271    301        90.03
+3                 goatee  221    238        92.86
+4  goatee_with_moustache  273    301        90.70
+5              moustache  287    298        96.31
+6                 shaven  294    301        97.67
+7                stubble  268    301        89.04
+Average accuracy: 1863/2001 (93.1%)
+beard_resnet34_epoch_18.pt
+                    name   TP  Total  Accuracy, %
+0           chin_curtain   72     75        96.00
+1           classic_long  173    186        93.01
+2          classic_short  267    301        88.70
+3                 goatee  223    238        93.70
+4  goatee_with_moustache  277    301        92.03
+5              moustache  285    298        95.64
+6                 shaven  286    301        95.02
+7                stubble  283    301        94.02
+Average accuracy: 1866/2001 (93.3%)
+beard_resnet34_epoch_19.pt
+                    name   TP  Total  Accuracy, %
+0           chin_curtain   71     75        94.67
+1           classic_long  181    186        97.31
+2          classic_short  277    301        92.03
+3                 goatee  212    238        89.08
+4  goatee_with_moustache  280    301        93.02
+5              moustache  288    298        96.64
+6                 shaven  287    301        95.35
+7                stubble  279    301        92.69
+Average accuracy: 1875/2001 (93.7%)
+beard_resnet34_epoch_2.pt
+                    name   TP  Total  Accuracy, %
+0           chin_curtain   43     75        57.33
+1           classic_long  176    186        94.62
+2          classic_short   48    301        15.95
+3                 goatee   34    238        14.29
+4  goatee_with_moustache  171    301        56.81
+5              moustache  222    298        74.50
+6                 shaven  172    301        57.14
+7                stubble  160    301        53.16
+Average accuracy: 1026/2001 (51.3%)
+beard_resnet34_epoch_20.pt
+                    name   TP  Total  Accuracy, %
+0           chin_curtain   72     75        96.00
+1           classic_long  179    186        96.24
+2          classic_short  285    301        94.68
+3                 goatee  226    238        94.96
+4  goatee_with_moustache  268    301        89.04
+5              moustache  289    298        96.98
+6                 shaven  289    301        96.01
+7                stubble  263    301        87.38
+Average accuracy: 1871/2001 (93.5%)
+beard_resnet34_epoch_21.pt
+                    name   TP  Total  Accuracy, %
+0           chin_curtain   72     75        96.00
+1           classic_long  181    186        97.31
+2          classic_short  280    301        93.02
+3                 goatee  218    238        91.60
+4  goatee_with_moustache  281    301        93.36
+5              moustache  295    298        98.99
+6                 shaven  293    301        97.34
+7                stubble  270    301        89.70
+Average accuracy: 1890/2001 (94.5%)
+beard_resnet34_epoch_22.pt
+                    name   TP  Total  Accuracy, %
+0           chin_curtain   70     75        93.33
+1           classic_long  178    186        95.70
+2          classic_short  275    301        91.36
+3                 goatee  227    238        95.38
+4  goatee_with_moustache  277    301        92.03
+5              moustache  293    298        98.32
+6                 shaven  290    301        96.35
+7                stubble  287    301        95.35
+Average accuracy: 1897/2001 (94.8%)
+beard_resnet34_epoch_23.pt
+                    name   TP  Total  Accuracy, %
+0           chin_curtain   71     75        94.67
+1           classic_long  181    186        97.31
+2          classic_short  284    301        94.35
+3                 goatee  220    238        92.44
+4  goatee_with_moustache  283    301        94.02
+5              moustache  294    298        98.66
+6                 shaven  289    301        96.01
+7                stubble  285    301        94.68
+Average accuracy: 1907/2001 (95.3%)
+beard_resnet34_epoch_24.pt
+                    name   TP  Total  Accuracy, %
+0           chin_curtain   70     75        93.33
+1           classic_long  180    186        96.77
+2          classic_short  285    301        94.68
+3                 goatee  231    238        97.06
+4  goatee_with_moustache  282    301        93.69
+5              moustache  294    298        98.66
+6                 shaven  295    301        98.01
+7                stubble  264    301        87.71
+Average accuracy: 1901/2001 (95.0%)
+beard_resnet34_epoch_25.pt
+                    name   TP  Total  Accuracy, %
+0           chin_curtain   71     75        94.67
+1           classic_long  179    186        96.24
+2          classic_short  279    301        92.69
+3                 goatee  228    238        95.80
+4  goatee_with_moustache  276    301        91.69
+5              moustache  291    298        97.65
+6                 shaven  289    301        96.01
+7                stubble  285    301        94.68
+Average accuracy: 1898/2001 (94.9%)
+beard_resnet34_epoch_26.pt
+                    name   TP  Total  Accuracy, %
+0           chin_curtain   70     75        93.33
+1           classic_long  181    186        97.31
+2          classic_short  288    301        95.68
+3                 goatee  235    238        98.74
+4  goatee_with_moustache  268    301        89.04
+5              moustache  290    298        97.32
+6                 shaven  289    301        96.01
+7                stubble  280    301        93.02
+Average accuracy: 1901/2001 (95.0%)
+beard_resnet34_epoch_27.pt
+                    name   TP  Total  Accuracy, %
+0           chin_curtain   70     75        93.33
+1           classic_long  180    186        96.77
+2          classic_short  282    301        93.69
+3                 goatee  231    238        97.06
+4  goatee_with_moustache  286    301        95.02
+5              moustache  294    298        98.66
+6                 shaven  291    301        96.68
+7                stubble  282    301        93.69
+Average accuracy: 1916/2001 (95.8%)
+beard_resnet34_epoch_28.pt
+                    name   TP  Total  Accuracy, %
+0           chin_curtain   70     75        93.33
+1           classic_long  181    186        97.31
+2          classic_short  285    301        94.68
+3                 goatee  229    238        96.22
+4  goatee_with_moustache  285    301        94.68
+5              moustache  296    298        99.33
+6                 shaven  296    301        98.34
+7                stubble  263    301        87.38
+Average accuracy: 1905/2001 (95.2%)
+beard_resnet34_epoch_29.pt
+                    name   TP  Total  Accuracy, %
+0           chin_curtain   70     75        93.33
+1           classic_long  178    186        95.70
+2          classic_short  287    301        95.35
+3                 goatee  229    238        96.22
+4  goatee_with_moustache  287    301        95.35
+5              moustache  294    298        98.66
+6                 shaven  295    301        98.01
+7                stubble  272    301        90.37
+Average accuracy: 1912/2001 (95.6%)
+beard_resnet34_epoch_3.pt
+                    name   TP  Total  Accuracy, %
+0           chin_curtain   55     75        73.33
+1           classic_long  147    186        79.03
+2          classic_short   78    301        25.91
+3                 goatee   36    238        15.13
+4  goatee_with_moustache   34    301        11.30
+5              moustache  262    298        87.92
+6                 shaven  215    301        71.43
+7                stubble   90    301        29.90
+Average accuracy: 917/2001 (45.8%)
+beard_resnet34_epoch_30.pt
+                    name   TP  Total  Accuracy, %
+0           chin_curtain   70     75        93.33
+1           classic_long  180    186        96.77
+2          classic_short  288    301        95.68
+3                 goatee  231    238        97.06
+4  goatee_with_moustache  282    301        93.69
+5              moustache  294    298        98.66
+6                 shaven  293    301        97.34
+7                stubble  284    301        94.35
+Average accuracy: 1922/2001 (96.1%)
+beard_resnet34_epoch_31.pt
+                    name   TP  Total  Accuracy, %
+0           chin_curtain   69     75        92.00
+1           classic_long  178    186        95.70
+2          classic_short  281    301        93.36
+3                 goatee  233    238        97.90
+4  goatee_with_moustache  283    301        94.02
+5              moustache  294    298        98.66
+6                 shaven  296    301        98.34
+7                stubble  282    301        93.69
+Average accuracy: 1916/2001 (95.8%)
+beard_resnet34_epoch_32.pt
+                    name   TP  Total  Accuracy, %
+0           chin_curtain   72     75        96.00
+1           classic_long  177    186        95.16
+2          classic_short  290    301        96.35
+3                 goatee  232    238        97.48
+4  goatee_with_moustache  281    301        93.36
+5              moustache  293    298        98.32
+6                 shaven  293    301        97.34
+7                stubble  276    301        91.69
+Average accuracy: 1914/2001 (95.7%)
+beard_resnet34_epoch_33.pt
+                    name   TP  Total  Accuracy, %
+0           chin_curtain   70     75        93.33
+1           classic_long  178    186        95.70
+2          classic_short  286    301        95.02
+3                 goatee  231    238        97.06
+4  goatee_with_moustache  285    301        94.68
+5              moustache  292    298        97.99
+6                 shaven  293    301        97.34
+7                stubble  287    301        95.35
+Average accuracy: 1922/2001 (96.1%)
+beard_resnet34_epoch_34.pt
+                    name   TP  Total  Accuracy, %
+0           chin_curtain   71     75        94.67
+1           classic_long  178    186        95.70
+2          classic_short  284    301        94.35
+3                 goatee  230    238        96.64
+4  goatee_with_moustache  288    301        95.68
+5              moustache  294    298        98.66
+6                 shaven  293    301        97.34
+7                stubble  282    301        93.69
+Average accuracy: 1920/2001 (96.0%)
+beard_resnet34_epoch_35.pt
+                    name   TP  Total  Accuracy, %
+0           chin_curtain   70     75        93.33
+1           classic_long  177    186        95.16
+2          classic_short  282    301        93.69
+3                 goatee  230    238        96.64
+4  goatee_with_moustache  289    301        96.01
+5              moustache  293    298        98.32
+6                 shaven  296    301        98.34
+7                stubble  275    301        91.36
+Average accuracy: 1912/2001 (95.6%)
+beard_resnet34_epoch_36.pt
+                    name   TP  Total  Accuracy, %
+0           chin_curtain   72     75        96.00
+1           classic_long  178    186        95.70
+2          classic_short  291    301        96.68
+3                 goatee  228    238        95.80
+4  goatee_with_moustache  284    301        94.35
+5              moustache  294    298        98.66
+6                 shaven  295    301        98.01
+7                stubble  275    301        91.36
+Average accuracy: 1917/2001 (95.8%)
+beard_resnet34_epoch_37.pt
+                    name   TP  Total  Accuracy, %
+0           chin_curtain   71     75        94.67
+1           classic_long  181    186        97.31
+2          classic_short  281    301        93.36
+3                 goatee  229    238        96.22
+4  goatee_with_moustache  288    301        95.68
+5              moustache  295    298        98.99
+6                 shaven  296    301        98.34
+7                stubble  274    301        91.03
+Average accuracy: 1915/2001 (95.7%)
+beard_resnet34_epoch_38.pt
+                    name   TP  Total  Accuracy, %
+0           chin_curtain   70     75        93.33
+1           classic_long  178    186        95.70
+2          classic_short  285    301        94.68
+3                 goatee  231    238        97.06
+4  goatee_with_moustache  288    301        95.68
+5              moustache  294    298        98.66
+6                 shaven  297    301        98.67
+7                stubble  274    301        91.03
+Average accuracy: 1917/2001 (95.8%)
+beard_resnet34_epoch_39.pt
+                    name   TP  Total  Accuracy, %
+0           chin_curtain   70     75        93.33
+1           classic_long  178    186        95.70
+2          classic_short  290    301        96.35
+3                 goatee  231    238        97.06
+4  goatee_with_moustache  283    301        94.02
+5              moustache  294    298        98.66
+6                 shaven  294    301        97.67
+7                stubble  279    301        92.69
+Average accuracy: 1919/2001 (95.9%)
+beard_resnet34_epoch_4.pt
+                    name   TP  Total  Accuracy, %
+0           chin_curtain   56     75        74.67
+1           classic_long  170    186        91.40
+2          classic_short   71    301        23.59
+3                 goatee   49    238        20.59
+4  goatee_with_moustache  122    301        40.53
+5              moustache  246    298        82.55
+6                 shaven  238    301        79.07
+7                stubble  225    301        74.75
+Average accuracy: 1177/2001 (58.8%)
+beard_resnet34_epoch_40.pt
+                    name   TP  Total  Accuracy, %
+0           chin_curtain   69     75        92.00
+1           classic_long  181    186        97.31
+2          classic_short  282    301        93.69
+3                 goatee  231    238        97.06
+4  goatee_with_moustache  284    301        94.35
+5              moustache  294    298        98.66
+6                 shaven  293    301        97.34
+7                stubble  279    301        92.69
+Average accuracy: 1913/2001 (95.6%)
+beard_resnet34_epoch_41.pt
+                    name   TP  Total  Accuracy, %
+0           chin_curtain   70     75        93.33
+1           classic_long  176    186        94.62
+2          classic_short  284    301        94.35
+3                 goatee  227    238        95.38
+4  goatee_with_moustache  290    301        96.35
+5              moustache  295    298        98.99
+6                 shaven  293    301        97.34
+7                stubble  285    301        94.68
+Average accuracy: 1920/2001 (96.0%)
+beard_resnet34_epoch_42.pt
+                    name   TP  Total  Accuracy, %
+0           chin_curtain   68     75        90.67
+1           classic_long  178    186        95.70
+2          classic_short  285    301        94.68
+3                 goatee  229    238        96.22
+4  goatee_with_moustache  288    301        95.68
+5              moustache  295    298        98.99
+6                 shaven  294    301        97.67
+7                stubble  283    301        94.02
+Average accuracy: 1920/2001 (96.0%)
+beard_resnet34_epoch_43.pt
+                    name   TP  Total  Accuracy, %
+0           chin_curtain   69     75        92.00
+1           classic_long  178    186        95.70
+2          classic_short  283    301        94.02
+3                 goatee  230    238        96.64
+4  goatee_with_moustache  289    301        96.01
+5              moustache  294    298        98.66
+6                 shaven  295    301        98.01
+7                stubble  281    301        93.36
+Average accuracy: 1919/2001 (95.9%)
+beard_resnet34_epoch_44.pt
+                    name   TP  Total  Accuracy, %
+0           chin_curtain   70     75        93.33
+1           classic_long  178    186        95.70
+2          classic_short  291    301        96.68
+3                 goatee  233    238        97.90
+4  goatee_with_moustache  283    301        94.02
+5              moustache  294    298        98.66
+6                 shaven  295    301        98.01
+7                stubble  278    301        92.36
+Average accuracy: 1922/2001 (96.1%)
+beard_resnet34_epoch_45.pt
+                    name   TP  Total  Accuracy, %
+0           chin_curtain   70     75        93.33
+1           classic_long  177    186        95.16
+2          classic_short  285    301        94.68
+3                 goatee  232    238        97.48
+4  goatee_with_moustache  289    301        96.01
+5              moustache  293    298        98.32
+6                 shaven  296    301        98.34
+7                stubble  280    301        93.02
+Average accuracy: 1922/2001 (96.1%)
+beard_resnet34_epoch_5.pt
+                    name   TP  Total  Accuracy, %
+0           chin_curtain   36     75        48.00
+1           classic_long  147    186        79.03
+2          classic_short  197    301        65.45
+3                 goatee   50    238        21.01
+4  goatee_with_moustache  161    301        53.49
+5              moustache  280    298        93.96
+6                 shaven  228    301        75.75
+7                stubble  191    301        63.46
+Average accuracy: 1290/2001 (64.5%)
+beard_resnet34_epoch_6.pt
+                    name   TP  Total  Accuracy, %
+0           chin_curtain    4     75         5.33
+1           classic_long  118    186        63.44
+2          classic_short  215    301        71.43
+3                 goatee  153    238        64.29
+4  goatee_with_moustache  159    301        52.82
+5              moustache  266    298        89.26
+6                 shaven  261    301        86.71
+7                stubble  236    301        78.41
+Average accuracy: 1412/2001 (70.6%)
+beard_resnet34_epoch_7.pt
+                    name   TP  Total  Accuracy, %
+0           chin_curtain   59     75        78.67
+1           classic_long  161    186        86.56
+2          classic_short  219    301        72.76
+3                 goatee  192    238        80.67
+4  goatee_with_moustache  176    301        58.47
+5              moustache  267    298        89.60
+6                 shaven  248    301        82.39
+7                stubble  197    301        65.45
+Average accuracy: 1519/2001 (75.9%)
+beard_resnet34_epoch_8.pt
+                    name   TP  Total  Accuracy, %
+0           chin_curtain   56     75        74.67
+1           classic_long  184    186        98.92
+2          classic_short  174    301        57.81
+3                 goatee  153    238        64.29
+4  goatee_with_moustache  221    301        73.42
+5              moustache  274    298        91.95
+6                 shaven  253    301        84.05
+7                stubble  227    301        75.42
+Average accuracy: 1542/2001 (77.1%)
+beard_resnet34_epoch_9.pt
+                    name   TP  Total  Accuracy, %
+0           chin_curtain   72     75        96.00
+1           classic_long  181    186        97.31
+2          classic_short  177    301        58.80
+3                 goatee  144    238        60.50
+4  goatee_with_moustache  247    301        82.06
+5              moustache  268    298        89.93
+6                 shaven  277    301        92.03
+7                stubble  223    301        74.09
+Average accuracy: 1589/2001 (79.4%)
